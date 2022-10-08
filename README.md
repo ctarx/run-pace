@@ -1,7 +1,7 @@
 # run-pace
 > A disgustingly simple running pace calculator
 
-## My first steps into programming in Python 
+### My first steps into programming in Python 
 ![screenshot](calc.png)
 
 #### Contact
