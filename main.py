@@ -1,12 +1,12 @@
-print()
-print("----------" * 6)
+LINES = ("----------" * 6)
+
+print(LINES)
 print("\t \t Running Pace Calculator")
-print("----------" * 6)
-print()
+print(f"{LINES} \n")
 
 distance = float(
     input(
-        "Pick your distance: \n\n (1) 5km | (2) 10km | (3) 1/2 Marathon | (4) Marathon "
+        "Pick your distance: \n\n (1) 5km | (2) 10km | (3) 1/2 Marathon | (4) Marathon \n\n :"
     )
 )
 
@@ -17,7 +17,7 @@ def seconds(time):
 
 def pace_calculate(distance):
     print()
-    time = seconds(input("Give the finishing time (hh:mm:ss) "))
+    time = seconds(input("Give the finishing time (hh:mm:ss) \n\n :"))
     # calculate time / distance
     pace = int(time / distance)
     # mm = pace // 60
@@ -26,9 +26,9 @@ def pace_calculate(distance):
     mm, ss = divmod(pace, 60)
 
     print()
-    print("----------" * 6)
+    print(LINES)
     print(f"Your running pace is: {mm}:{ss} min/km")
-    print("----------" * 6)
+    print(LINES)
 
 if distance == 1:
     # distance = 5
@@ -43,4 +43,6 @@ elif distance == 4:
     # distance = 42.195
     pace_calculate(42.195)
 else:
-    print("Wrong Value.")
+    print(LINES)
+    print("Wrong Value. Pick 1-4")
+    print(LINES)
