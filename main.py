@@ -1,4 +1,4 @@
-LINES = ("----------" * 6)
+LINES = ("-" * 60)
 
 print(LINES)
 print("\t \t Running Pace Calculator")
