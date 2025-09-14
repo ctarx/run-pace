@@ -1,9 +1,11 @@
 # run-pace
+>
 > A disgustingly simple running pace calculator
 
-### My first steps into programming in Python 
+### My first steps into programming in Python
+
 ![screenshot](calc.png)
 
 #### Contact
-Created by [@ctarx](https://linuxrocks.online/@ctarx) - feel free to contact me!
 
+Created by [@ctarx](https://web.libera.chat/) - feel free to contact me!
